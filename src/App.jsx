@@ -31,10 +31,19 @@ function App() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 pb-24">
         <HeroCover />
         <Dashboard />
         <ChatSymptom />
+
+        {/* Footer */}
+        <footer className="mt-12 mb-2 px-6 text-center">
+          <div className="inline-flex items-center justify-center gap-2 rounded-full bg-white/5 px-4 py-2 backdrop-blur-md ring-1 ring-white/10">
+            <span className="text-sm tracking-wide text-zinc-400">
+              made by <span className="font-semibold text-zinc-200">codenova</span>
+            </span>
+          </div>
+        </footer>
       </div>
 
       <BottomNav />
